@@ -4,17 +4,6 @@
 
 #define N 1000
 
-void imprimir_arreglo(int a[], int tam) {
-    printf("[");
-    for (int i = 0; i < tam; i++) {
-        printf("%d", a[i]);
-        if (i < tam - 1) {
-            printf(", ");
-        }
-    }
-    printf("]\n");
-}
-
 int compare(const void* a, const void* b) {
     return (*(int*)a - *(int*)b);
 }
